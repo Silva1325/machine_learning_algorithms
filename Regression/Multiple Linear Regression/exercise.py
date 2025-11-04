@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 
 
 # Importing the dataset
-ds = pd.read_csv(r'Regression\Multiple Linear Regression\50_startups.csv')
+ds = pd.read_csv(r'Datasources\50_startups.csv')
 
 # Indepentend variables and dependent variable
 X = ds.iloc[:,:-1].values

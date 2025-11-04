@@ -1,11 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeRegressor
 
 # Import Data
-ds = pd.read_csv(r'Regression\Decision Trees\position_salaries_data.csv')
+ds = pd.read_csv(r'Datasources\position_salaries_data.csv')
 
 # Independent and dependent variables
 X = ds.iloc[:, 1:-1].values
