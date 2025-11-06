@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
 # Import Data
-dataset = pd.read_csv(r'Datasources\people_purchases_data.csv')
+dataset = pd.read_csv(r'Data Processing\Datasources\people_purchases_data.csv')
 
 # Indepentend variables and dependent variable
 X = dataset.iloc[:,:-1].values

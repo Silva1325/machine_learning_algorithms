@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
 # Import Data
-ds = pd.read_csv(r'Datasources\salary_data.csv')
+ds = pd.read_csv(r'Regression\Datasources\salary_data.csv')
 
 # Indepentend variables and dependent variable
 X = ds.iloc[:,:-1].values

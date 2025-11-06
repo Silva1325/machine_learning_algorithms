@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 
 # Import Data
-ds = pd.read_csv(r'Datasources\position_salaries_data.csv')
+ds = pd.read_csv(r'Regression\Datasources\position_salaries_data.csv')
 
 # Independent and dependent variables
 X = ds.iloc[:, 1:-1].values

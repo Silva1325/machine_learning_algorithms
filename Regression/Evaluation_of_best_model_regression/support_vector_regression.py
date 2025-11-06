@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score
 
 # Importing the dataset
-dataset = pd.read_csv(r'Datasources\weather_data.csv')
+dataset = pd.read_csv(r'Regression\Datasources\weather_data.csv')
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values
 y = y.reshape(len(y),1)
