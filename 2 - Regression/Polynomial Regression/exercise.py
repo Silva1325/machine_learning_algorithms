@@ -6,7 +6,7 @@ from sklearn.preprocessing import PolynomialFeatures, StandardScaler
 from sklearn.svm import SVR
 
 # Import Data
-ds = pd.read_csv(r'Regression\Datasources\position_salaries_data.csv')
+ds = pd.read_csv(r'2 - Regression\Datasources\position_salaries_data.csv')
 
 # Indepentend variables and dependent variable
 X = ds.iloc[:,1:-1].values
