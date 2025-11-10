@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-from sklearn import svm
+from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -23,8 +23,8 @@ sc = StandardScaler()
 X_train = sc.fit_transform(X_train)
 X_test = sc.transform(X_test)
 
-# Trainning the SVM model into the whole dataset 
-classifier = svm.SVC(kernel='linear',random_state=0)
+# Trainning the KNN model into the whole dataset 
+classifier = KNeighborsClassifier(n_neighbors=5, metric='minkowski', p = 2)
 classifier.fit(X_train,y_train)
 
 # Predict a new result
@@ -52,7 +52,7 @@ plt.xlim(X1.min(), X1.max())
 plt.ylim(X2.min(), X2.max())
 for i, j in enumerate(np.unique(y_set)):
     plt.scatter(X_set[y_set == j, 0], X_set[y_set == j, 1], c = ListedColormap(['red', 'green'])(i), label = j)
-plt.title('SVM (Training set)')
+plt.title('K-NN (Training set)')
 plt.xlabel('Age')
 plt.ylabel('Estimated Salary')
 plt.legend()
@@ -81,7 +81,7 @@ for i, j in enumerate(np.unique(y_set)):
         color=colors[i], label=j
     )
 # Add titles and labels
-plt.title('SVM (Test set)')
+plt.title('K-NN (Test set)')
 plt.xlabel('Age')
 plt.ylabel('Estimated Salary')
 plt.legend()
