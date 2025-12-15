@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import GaussianNB
 
 # Import dataset
-ds = pd.read_csv(r'7 - Natural Language Processing\datasources\restaurant_reviews_data.tsv', delimiter='\t', quoting=3) # Ignore quoting
+ds = pd.read_csv(r'7 - Natural Language Processing\Datasources\restaurant_reviews_data.tsv', delimiter='\t', quoting=3) # Ignore quoting
 
 # Cleaning the texts
 nltk.download('stopwords') # The, a, they, them,...

@@ -3,7 +3,7 @@ import math
 import matplotlib.pyplot as plt
 
 # Importing the dataset
-ds = pd.read_csv(r'6 - Reinforcement Learning\datasources\ads_ctr_optimisation_data.csv')
+ds = pd.read_csv(r'6 - Reinforcement Learning\Datasources\ads_ctr_optimisation_data.csv')
 
 # Implement the UCB algorithm
 #N = 10000

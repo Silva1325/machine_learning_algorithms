@@ -3,7 +3,7 @@ from apyori import apriori
 from tabulate import tabulate
 
 # Data preprocessing
-dataset = pd.read_csv(r"5 - Association rule\datasources\market_basket_optimisation_data.csv",header=None)
+dataset = pd.read_csv(r"5 - Association rule\Datasources\market_basket_optimisation_data.csv",header=None)
 transactions = []
 for i in range(0,7501):
     transactions.append([str(dataset.values[i, j]) for j in range(20)])
