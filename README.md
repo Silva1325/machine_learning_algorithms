@@ -24,7 +24,6 @@ This repository contains implementations and examples of various machine learnin
 
 ### 1. Data Processing
 - Data preprocessing techniques
-- Feature engineering
 - Data cleaning and transformation
 
 ### 2. Regression
