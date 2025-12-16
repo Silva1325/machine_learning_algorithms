@@ -1,4 +1,4 @@
-# Machine Learning Fundamentals
+# Machine Learning Algorithms
 
 A comprehensive machine learning repository covering fundamental to advanced ML techniques and algorithms.
 
