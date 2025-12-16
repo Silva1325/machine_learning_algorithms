@@ -1,4 +1,4 @@
-# Machine Learning Project
+# Machine Learning Fundamentals
 
 A comprehensive machine learning repository covering fundamental to advanced ML techniques and algorithms.
 
