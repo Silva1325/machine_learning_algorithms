@@ -80,16 +80,6 @@ pip install tensorflow keras torch
 pip install xgboost catboost
 ```
 
-### Installation
-```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
-```
-
 ## 💻 Usage
 
 Navigate to each module directory to find specific implementations and run the file
-
-## 📧 Contact
-
-For questions or suggestions, please open an issue in the repository.
